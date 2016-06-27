@@ -29,6 +29,10 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
       'MozTransition'    : 'transitionend',
       'OTransition'      : 'oTransitionEnd otransitionend',
       'transition'       : 'transitionend'
+
+
+
+      
     }
 
     for (var name in transEndEventNames) {
